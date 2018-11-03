@@ -1,0 +1,17 @@
+[package]
+name = "i3gamma"
+version = "0.1.0"
+authors = ["whitequark <whitequark@whitequark.org>"]
+description = "i3gamma integrates with the i3 window manager and changes the gamma correction value depending on the focused window."
+homepage = "https://github.com/whitequark/i3gamma"
+repository = "https://github.com/whitequark/i3gamma.git"
+readme = "README.md"
+categories = ["gui"]
+keywords = ["i3", "gamma"]
+license = "0BSD"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+i3ipc = "0.8.4"
+toml = "0.4"

@@ -1,0 +1,5 @@
+default-gamma = { eDP1 = 1.05 }
+
+[[window]]
+title = "Team Fortress 2 - OpenGL"
+gamma = { eDP1 = 1.15 }
